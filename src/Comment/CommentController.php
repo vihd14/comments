@@ -1,6 +1,6 @@
 <?php
 
-namespace Anax\Comment;
+namespace Vihd14\Comment;
 
 use \Anax\Configure\ConfigureInterface;
 use \Anax\Configure\ConfigureTrait;

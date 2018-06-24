@@ -1,6 +1,6 @@
 <?php
 
-namespace Anax\Comment\HTMLForm;
+namespace Vihd14\Comment\HTMLForm;
 
 use \Anax\HTMLForm\FormModel;
 use \Anax\DI\DIInterface;

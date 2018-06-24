@@ -1,6 +1,6 @@
 <?php
 
-namespace Anax\Comment\HTMLForm;
+namespace Vihd14\Comment\HTMLForm;
 
 use \Anax\HTMLForm\FormModel;
 use \Anax\DI\DIInterface;
@@ -54,7 +54,7 @@ class DeleteForm extends FormModel
         $comment->setDb($this->di->get("db"));
 
         $comments = ["-1" => "Välj ett objekt..."];
-        
+
         $obj = $comment->find("id", $id);
         $comments[$obj->id] = "{$obj->email} ({$obj->id})";
 
