@@ -3,6 +3,9 @@ Anax comments
 
 [![Build Status](https://travis-ci.org/vihd14/comments.svg?branch=master)](https://travis-ci.org/vihd14/comments)
 [![Maintainability](https://api.codeclimate.com/v1/badges/4aa5ab01372d158d090f/maintainability)](https://codeclimate.com/github/vihd14/comments/maintainability)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/vihd14/comments/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/vihd14/comments/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/vihd14/comments/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/vihd14/comments/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/vihd14/comments/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/vihd14/comments/?branch=master)
 
 Anax comments module.
 
