@@ -6,10 +6,10 @@ use \Anax\Configure\ConfigureInterface;
 use \Anax\Configure\ConfigureTrait;
 use \Anax\DI\InjectionAwareInterface;
 use \Anax\DI\InjectionAwareTrait;
-use \Anax\Comment\HTMLForm\CreateForm;
-use \Anax\Comment\HTMLForm\EditForm;
-use \Anax\Comment\HTMLForm\DeleteForm;
-use \Anax\Comment\HTMLForm\UpdateForm;
+use \Vihd14\Comment\HTMLForm\CreateForm;
+use \Vihd14\Comment\HTMLForm\EditForm;
+use \Vihd14\Comment\HTMLForm\DeleteForm;
+use \Vihd14\Comment\HTMLForm\UpdateForm;
 
 /**
  * A controller class.

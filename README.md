@@ -1,11 +1,8 @@
 Anax comments
 ==================================
 
-[![Build Status](https://travis-ci.org/canax/comments.svg?branch=master)](https://travis-ci.org/canax/comments)
-[![CircleCI](https://circleci.com/gh/canax/comments.svg?style=svg)](https://circleci.com/gh/canax/comments)
-[![Build Status](https://scrutinizer-ci.com/g/canax/comments/badges/build.png?b=master)](https://scrutinizer-ci.com/g/canax/comments/build-status/master)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/canax/comments/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/canax/comments/?branch=master)
-[![Code Coverage](https://scrutinizer-ci.com/g/canax/comments/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/canax/comments/?branch=master)
+[![Build Status](https://travis-ci.org/vihd14/comments.svg?branch=master)](https://travis-ci.org/vihd14/comments)
+[![Maintainability](https://api.codeclimate.com/v1/badges/4aa5ab01372d158d090f/maintainability)](https://codeclimate.com/github/vihd14/comments/maintainability)
 
 Anax comments module.
 
@@ -14,9 +11,26 @@ Anax comments module.
 Usage
 ------------------
 
-Short examples on how to use the module comments.
+Short examples on how to use the module `comments`.
 
-* Install by running `composer require vihd14/comments`
+* Install by running `composer require vihd14/comments`.
+* Copy the files in `config/route` to your own route folder.
+* Copy the content from `di.php` and `route.php` to add in your existing corresponding folders.
+* Copy `database.php`, if you don't already have it.
+* Copy `data/db.sqlite` for the database.
+* Copy the `view` folder to get all views.
+
+Lastly, add `"Vihd14\\": "src/"` to your composer.json under `autoload`.  
+It should look something like this:
+
+```
+"autoload": {
+    "psr-4": {
+        "Anax\\": "src/",
+        "Vihd14\\": "src/"
+    }
+}
+```
 
 
 License

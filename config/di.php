@@ -6,6 +6,14 @@ return [
 
     // Services to add to the container.
     "services" => [
+        "htmlform" => [
+            "shared" => true,
+            "callback" => function () {
+                $htmlform = new \Anax\HTMLForm\FormModel();
+                $htmlform->setDI($this);
+                return $htmlform;
+            }
+        ],
         "db" => [
             "shared" => true,
             "callback" => function () {

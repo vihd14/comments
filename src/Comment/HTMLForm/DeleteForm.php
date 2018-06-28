@@ -4,7 +4,7 @@ namespace Vihd14\Comment\HTMLForm;
 
 use \Anax\HTMLForm\FormModel;
 use \Anax\DI\DIInterface;
-use \Anax\Comment\Comment;
+use \Vihd14\Comment\Comment;
 
 /**
  * Form to delete an item.
