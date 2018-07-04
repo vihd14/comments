@@ -34,7 +34,7 @@ class DeleteForm extends FormModel
                 "submit" => [
                     "type" => "submit",
                     "options"     => $this->getItem($id),
-                    "value" => "Ta bort",
+                    "value" => "Delete",
                     "callback" => [$this, "callbackSubmit"]
                 ],
             ]
@@ -53,7 +53,7 @@ class DeleteForm extends FormModel
         $comment = new Comment();
         $comment->setDb($this->di->get("db"));
 
-        $comments = ["-1" => "Välj ett objekt..."];
+        $comments = ["-1" => "Choose an object"];
 
         $obj = $comment->find("id", $id);
         $comments[$obj->id] = "{$obj->email} ({$obj->id})";

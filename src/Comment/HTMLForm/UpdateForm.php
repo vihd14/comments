@@ -43,20 +43,20 @@ class UpdateForm extends FormModel
 
                 "text" => [
                     "type" => "textarea",
-                    "label" => "Kommentar:",
+                    "label" => "Comment:",
                     "validation" => ["not_empty"],
                     "value" => $comment->text,
                 ],
 
                 "submit" => [
                     "type" => "submit",
-                    "value" => "Spara",
+                    "value" => "Save",
                     "callback" => [$this, "callbackSubmit"]
                 ],
 
                 "reset" => [
                     "type"      => "reset",
-                    "value"     => "Återställ"
+                    "value"     => "Reset"
                 ],
             ]
         );

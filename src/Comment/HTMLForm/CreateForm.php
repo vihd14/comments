@@ -32,14 +32,14 @@ class CreateForm extends FormModel
                 ],
                 "text" => [
                     "type" => "textarea",
-                    "label" => "Kommentar:",
+                    "label" => "Comment:",
                     "class" => "comment-section",
                     "validation" => ["not_empty"],
                 ],
 
                 "submit" => [
                     "type" => "submit",
-                    "value" => "Kommentera",
+                    "value" => "Publish",
                     "callback" => [$this, "callbackSubmit"]
                 ],
             ]

@@ -35,7 +35,7 @@ class CommentController implements
      */
     public function getIndex()
     {
-        $title      = "Comments - Viza's page";
+        $title      = "Comments";
         $view       = $this->di->get("view");
         $pageRender = $this->di->get("pageRender");
         $comment = new Comment();
@@ -59,7 +59,7 @@ class CommentController implements
      */
     public function getPostCreateItem()
     {
-        $title      = "Lägg till kommentar";
+        $title      = "Create";
         $view       = $this->di->get("view");
         $pageRender = $this->di->get("pageRender");
         $form       = new CreateForm($this->di);
@@ -84,7 +84,7 @@ class CommentController implements
      */
     public function getPostDeleteItem($id)
     {
-        $title      = "Ta bort kommentar";
+        $title      = "Remove";
         $view       = $this->di->get("view");
         $pageRender = $this->di->get("pageRender");
         $form       = new DeleteForm($this->di, $id);
@@ -109,7 +109,7 @@ class CommentController implements
      */
     public function getPostUpdateItem($id)
     {
-        $title      = "Uppdatera kommentar";
+        $title      = "Edit";
         $view       = $this->di->get("view");
         $pageRender = $this->di->get("pageRender");
         $form       = new UpdateForm($this->di, $id);
